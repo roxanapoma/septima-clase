@@ -1,7 +1,7 @@
 module.exports = {
-  expiracionToken: 240, // Minutos
+  expiracionToken: 0, // Minutos
   impuestos: {
-    urlRecuperacionDatos: 'https://123',
-    urlCreacionDatos: 'https://456'
+    urlRecuperacionDatos: '',
+    urlCreacionDatos: ''
   }
 };

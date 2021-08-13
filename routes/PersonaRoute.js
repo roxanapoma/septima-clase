@@ -3,7 +3,11 @@ const router = express.Router();
 const { PersonaController } = require('../controllers');
 const { AuthMiddleware } = require('../middlewares');
 
-router.get('/personas', AuthMiddleware.verificarToken, PersonaController.listarPersonas);
+router.get('/personas', PersonaController.listarPersonas);
+
+router.get('/consumir-servicio', PersonaController.consumirServicio)
+
+router.post('/personas', PersonaController.registrarPersona);
 
 router.get('/token', PersonaController.generarToken)
 
