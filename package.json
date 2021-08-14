@@ -7,7 +7,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ivan.tancara.c@gmail.com",
+  "author": "roxana.rie@gmail.com",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
