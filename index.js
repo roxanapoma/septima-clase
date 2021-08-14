@@ -17,4 +17,5 @@ app.use(PersonaRoute);
 
 app.listen(port, () => {
   console.log(`===> Funcionando en el puerto ${port}`);
+  console.log(`proyecto roxana`);
 });
